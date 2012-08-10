@@ -1,0 +1,73 @@
+
+start test:
+ initially ... elapsed time (sec) = 0
+     start ... elapsed time (sec) = 0
+     pause ... elapsed time (sec) = 1
+     pause ... elapsed time (sec) = 2
+
+stop test:
+ initially ... elapsed time (sec) = 0
+      stop ... elapsed time (sec) = 0
+     pause ... elapsed time (sec) = 0
+
+suspend test:
+ initially ... elapsed time (sec) = 0
+   suspend ... elapsed time (sec) = 0
+     pause ... elapsed time (sec) = 0
+
+resume test:
+ initially ... elapsed time (sec) = 0
+    resume ... elapsed time (sec) = 0
+     pause ... elapsed time (sec) = 0
+
+startStop test:
+ initially ... elapsed time (sec) = 0
+     start ... elapsed time (sec) = 0
+     pause ... elapsed time (sec) = 1
+     pause ... elapsed time (sec) = 2
+      stop ... elapsed time (sec) = 2
+     pause ... elapsed time (sec) = 2
+
+suspendResume test:
+ initially ... elapsed time (sec) = 0
+     start ... elapsed time (sec) = 0
+     pause ... elapsed time (sec) = 1
+     pause ... elapsed time (sec) = 2
+   suspend ... elapsed time (sec) = 2
+     pause ... elapsed time (sec) = 2
+    resume ... elapsed time (sec) = 2
+     pause ... elapsed time (sec) = 3
+   suspend ... elapsed time (sec) = 3
+     pause ... elapsed time (sec) = 3
+   suspend ... elapsed time (sec) = 3
+     pause ... elapsed time (sec) = 3
+    resume ... elapsed time (sec) = 3
+     pause ... elapsed time (sec) = 4
+    resume ... elapsed time (sec) = 4
+     pause ... elapsed time (sec) = 5
+      stop ... elapsed time (sec) = 5
+     pause ... elapsed time (sec) = 5
+
+restart test:
+ initially ... elapsed time (sec) = 0
+     start ... elapsed time (sec) = 0
+     pause ... elapsed time (sec) = 1
+     pause ... elapsed time (sec) = 2
+     start ... elapsed time (sec) = 0
+     pause ... elapsed time (sec) = 1
+     pause ... elapsed time (sec) = 2
+      stop ... elapsed time (sec) = 2
+     pause ... elapsed time (sec) = 2
+     start ... elapsed time (sec) = 0
+     pause ... elapsed time (sec) = 1
+     pause ... elapsed time (sec) = 2
+      stop ... elapsed time (sec) = 2
+     pause ... elapsed time (sec) = 2
+      stop ... elapsed time (sec) = 2
+     pause ... elapsed time (sec) = 2
+    resume ... elapsed time (sec) = 2
+     pause ... elapsed time (sec) = 2
+   suspend ... elapsed time (sec) = 2
+     pause ... elapsed time (sec) = 2
+
+end of tests!
